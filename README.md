@@ -5,17 +5,12 @@
 4. npm run dev
 
 Service will run on port 3000
+http://localhost:3000
 
 ## Create Short URL
 POST /create
 {
   "url": "https://longurl.com/123/some-text?foo=bar"
-}
-
-Response
-8 characters long
-{
-  "shortUrl": "xscR90KD"
 }
 
 ## Get Long URL
